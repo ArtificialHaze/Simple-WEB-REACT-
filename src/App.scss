@@ -1,0 +1,41 @@
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   text-decoration: none;
+//   list-style-type: none;
+// }
+
+// body {
+//   font-family: sans-serif, monospace;
+//   background: #999;
+// }
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.input-bx-shadow {
+  filter: drop-shadow(-4px -4px 44px rgba(0, 0, 0, 0.08));
+  input {
+    border: none;
+    outline: none;
+  }
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+  font-size: 40px;
+}
+
+.slick-next::before {
+  margin-left: -35px;
+}
+
+.slick-prev {
+  z-index: 9999;
+}
+
+.category-card:hover .arrow-icon {
+  fill: #fff;
+}
